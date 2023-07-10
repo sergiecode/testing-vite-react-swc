@@ -6,30 +6,33 @@ Este repositorio proporciona instrucciones sobre cómo crear un proyecto con Vit
 
 Asegúrate de tener instalada la versión de Node.js 14.18+ o 16+. Si estás utilizando NPM, ejecuta el siguiente comando:
 
+```
     npm create vite@latest
+```
 
 Si necesitas utilizar una plantilla específica, puedes especificarla junto con el nombre de tu proyecto. Por ejemplo, para crear un proyecto Vite + Vue, ejecuta alguno de los siguientes comandos:
 
 # NPM 6.x
-
+```
     npm create vite@latest my-vue-app --template vue
+```
 
 # NPM 7+, utilizando doble guión extra:
-
+```
     npm create vite@latest my-vue-app -- --template vue
-
+```
 Para obtener más información sobre las plantillas compatibles, consulta el repositorio [create-vite](https://github.com/vitejs/create-vite).
 
 ## Plantillas de la comunidad
 
 Si estás buscando plantillas adicionales mantenidas por la comunidad, puedes visitar [Awesome Vite](https://github.com/vitejs/awesome-vite). Estas plantillas incluyen herramientas y están dirigidas a diferentes frameworks. Puedes utilizar la herramienta [degit](https://github.com/Rich-Harris/degit) para clonar una plantilla y comenzar tu proyecto.
-
+```
     npx degit user/project my-project
     cd my-project
     
     npm install
     npm run dev
-
+```
 Si el proyecto utiliza la rama principal (main) como rama por defecto, añade el sufijo `#main` al repositorio del proyecto al utilizar degit.
 
 ## Archivo index.html y la raíz del proyecto
